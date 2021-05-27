@@ -1,0 +1,101 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-image: url(img/heafer-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 130.8px;
+  text-align: center;
+}
+
+.nav-bar {
+  width: 100%;
+  position: sticky;
+  border-top: 2px solid crimson;
+  border-bottom: 2px solid crimson;
+  top: 0px;
+  position: sticky;
+}
+header img {
+  height: 100px;
+  width: 100px;
+}
+header img,
+h2 {
+  display: inline-block;
+  vertical-align: middle;
+}
+h2 {
+  color: #101c42;
+  font-size: 50px;
+}
+ul {
+  margin: 0px;
+  background-color: black;
+}
+.nav-bar li {
+  padding: 10px;
+  display: inline-block;
+}
+a {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav-bar li:hover {
+  background-color: rgb(20, 33, 69);
+}
+.footer {
+  padding: 40px;
+  background-color: rgba(0, 0, 0);
+}
+.links {
+  display: inline-block;
+}
+.footer ul {
+  padding: 0px;
+  display: inline-block;
+}
+.footer li {
+  list-style: none;
+  margin: 2px;
+  color: rgb(255, 255, 255);
+}
+.footer h3 {
+  margin: 10px 0px;
+  font-size: xx-large;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.content {
+  text-align: center;
+  height: 500px;
+  background-image: url(img/back.jpg);
+}
+.box {
+  margin: 50px 0px;
+  display: inline-block;
+  width: 80%;
+  height: 400px;
+  background-color: crimson;
+}
+.box p {
+  border: 2px solid black;
+  overflow-y: scroll;
+  height: 80%;
+  width: 30%;
+  font-size: 30px;
+}
+.box img {
+  margin: 20px;
+}
+.box img,
+p {
+  display: inline-block;
+  vertical-align: middle;
+}

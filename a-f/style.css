@@ -1,0 +1,11 @@
+p{
+    /* 1.c second part of 1.c is in 1.d */
+    text-align: center;
+}
+h1{
+    font-family: Courier;
+}
+/* Answer for 1. d */
+.color{
+    color: red;
+}

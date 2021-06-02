@@ -2,6 +2,7 @@ body,html {
   margin: 0px;
   padding: 0px;
   font-family: 'Lobster',cursive;
+  background-color: rgb(255, 183, 205);
 }
 .name {
   display: inline-block;
@@ -34,8 +35,8 @@ header h1:hover {
 }
 .options:hover {
   background-color: black;
-  color: white;
-  transition: 1s;
+  color: crimson;
+  transition: 0.5s;
 }
 header ul {
   height: 70px;

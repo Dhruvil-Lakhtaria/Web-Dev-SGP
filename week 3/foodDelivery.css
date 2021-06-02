@@ -32,7 +32,7 @@ header h1:hover {
   color: rgb(255, 255, 255);
   transition: 2s linear;
 }
-header a:hover {
+.options:hover {
   background-color: black;
   color: white;
   transition: 1s;
@@ -50,13 +50,13 @@ header li {
   float: left;
   margin: 0px 10px;
 }
-header a {
+.options{
   padding: 0px 10px;
   display: inline-block;
   color: black;
   text-decoration: none;
 }
-header li,header a{
+header li,.options a{
     height: 70px;
     line-height: 70px;
 }

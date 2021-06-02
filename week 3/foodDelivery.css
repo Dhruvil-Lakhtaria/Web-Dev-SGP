@@ -97,13 +97,16 @@ header li,header a{
 }
 table
 {
-    border-collapse: collapse;
-    margin: auto;
+  font-family: 'Fredoka One', cursive;
+  border-collapse: collapse;
+  margin: auto;
 }
 th{
     color:crimson;
     border: 2px solid black;
     padding: 10px;
+    font-size: 30px;
+
 }
 td{
         color:rgb(255, 255, 255);
@@ -114,13 +117,16 @@ footer{
     margin: 50px 0px 0px 0px;
     background-color: rgba(0,0,0,1);
     height: 200px;
+    display: flex;
+    justify-content: space-around;
 }
-footer h2{
-    display: block;
+.links h2{
+    display: inline-block;
     color: white;
     margin: 20px;
+
 }
-footer ul{
+.links ul{
     margin: 0px;
     display: inline-block;
 }
@@ -144,4 +150,22 @@ tr:nth-child(odd)
 }
 th{
     background-color: black;
+}
+.social-media{
+  float: right;
+}
+.links{
+  width: 50%;
+  display: flex;
+  padding: 0px;
+  flex-direction: column;
+}
+.social-media li{
+  float: left;
+  margin: 20px;
+}
+.social-media img:hover{
+  height: 50px;
+  width: 50px;
+  transition: 1s;
 }

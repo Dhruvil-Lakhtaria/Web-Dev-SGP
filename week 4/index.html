@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <div class="nav">
+        <div class="left">
+        <img height="50px" width="50px" src="baseline_fingerprint_white_48dp.png"/>
+        <h3>QUICK LOGIN</h3>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <form>
+        <input type="radio" value="Mr" name="initial" required>
+        <label>Mr</label>
+        <input type="radio" value="Mrs" name="initial" required>
+        <label>Mrs</label>
+        <input type="radio" value="Miss" name="initial" required>
+        <label>Miss</label>
+        <br>
+        <br>
+        <label class="fname" for="fn">First name</label>
+        <input type="text" name="First name" id="fn" class = "fname" required>
+        <br>
+        <br>
+        <label class="lname" for="ln">Last name</label>
+        <input class="lname" type="text" id="ln" name="Last name" required>
+        <br>
+        <br>
+        <label class="email" for="email">E-Mail</label>
+        <input type="text" name="E-Mail" id="email" class="email" required>
+        <br>
+        <br>
+        <label class="phonenumber" for="pn">Phone Number</label>
+        <input type="text" name="phone number" id="pn" class="phonenumber" required><br>
+        <br>
+        <label class="password" for="password">Password</label>
+        <input type="password" name="password" id="password" class="password" required>
+        <br>
+        <br>
+        <label class="cpassword" for="cpassword">Confirm-Password</label>
+        <input type="password" name="cpassword" id="cpassword" class="cpassword" required>
+        <br>
+        <br>
+        <label>Select Country</label>
+        <select aria-required="true">
+            <option value="0">Country</option>
+            <option value="1">India</option>
+            <option value="2">USA</option>
+            <option value="3">Spain</option>
+            <option value="4">Germany</option>
+            <option value="5">Belgium</option>
+        </select> 
+        <br>
+        <br>
+        <input  type="checkbox" name="tandc" class="check" required>
+        <label>I agree to the <span><a class="tc" href="#">terms and conditions</a></span> </label>
+        <br>
+        <br>
+        <button   class="signup" type="submit">Sign Up</button>
+        <button  class="reset" type="reset">Reset</button>
+    </form>
+
+    </div>
+</body>
+</html>
